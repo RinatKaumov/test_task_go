@@ -20,7 +20,7 @@ var medicineCabinet = make(map[string]Medicine)
 
 func main() {
     // Подключаемся к боту через токен
-    bot, err := tgbotapi.NewBotAPI("YOUR_BOT_API_TOKEN")
+    bot, err := tgbotapi.NewBotAPI("7483565697:AAGAYz-LpXI0uiJPmfYKIzcd2rZwnoWwQKY")
     if err != nil {
         log.Panic(err)
     }
